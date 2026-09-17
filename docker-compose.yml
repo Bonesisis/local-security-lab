@@ -1,0 +1,12 @@
+# Local, isolated test environment for the security lab tools.
+# This does NOT expose any ports, does NOT connect to any external network,
+# and does NOT run any vulnerable service — it only runs the CLI against
+# the sample data shipped in this repo.
+services:
+  security-lab:
+    build: .
+    container_name: local-security-lab
+    volumes:
+      - ./sample_data:/lab/sample_data:ro
+    command: ["log-scan", "sample_data/sample_auth.log"]
+    network_mode: none

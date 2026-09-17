@@ -1,0 +1,21 @@
+# Intentionally insecure demo configuration used to demonstrate the
+# config-checker. This file is never run — it exists only as input data
+# for `security-lab config-check`.
+services:
+  demo-app:
+    image: nginx:latest
+    privileged: true
+    network_mode: host
+    environment:
+      - ADMIN_PASSWORD=admin123
+      - API_KEY=sk-demo-1234567890
+    ports:
+      - "0.0.0.0:2222:22"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  demo-db:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: changeme
+    user: root

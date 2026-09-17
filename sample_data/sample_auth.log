@@ -1,0 +1,11 @@
+Sep 14 03:20:01 lab-host sshd[1001]: Failed password for admin from 203.0.113.42 port 51515 ssh2
+Sep 14 03:20:04 lab-host sshd[1002]: Failed password for admin from 203.0.113.42 port 51516 ssh2
+Sep 14 03:20:07 lab-host sshd[1003]: Failed password for root from 203.0.113.42 port 51517 ssh2
+Sep 14 03:20:10 lab-host sshd[1004]: Failed password for invalid user test from 203.0.113.42 port 51518 ssh2
+Sep 14 03:20:13 lab-host sshd[1005]: Failed password for invalid user guest from 203.0.113.42 port 51519 ssh2
+Sep 14 03:20:16 lab-host sshd[1006]: Failed password for invalid user oracle from 203.0.113.42 port 51520 ssh2
+Sep 14 03:20:19 lab-host sshd[1007]: Accepted password for admin from 203.0.113.42 port 51521 ssh2
+Sep 14 08:05:02 lab-host sshd[1101]: Accepted password for luca from 198.51.100.7 port 52210 ssh2
+Sep 14 09:12:44 lab-host sshd[1201]: Failed password for invalid user pi from 192.0.2.15 port 40011 ssh2
+Sep 14 09:12:47 lab-host sshd[1202]: Failed password for invalid user pi from 192.0.2.15 port 40012 ssh2
+Sep 14 12:30:00 lab-host sshd[1301]: Accepted password for luca from 198.51.100.7 port 55010 ssh2
