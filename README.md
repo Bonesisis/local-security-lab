@@ -146,4 +146,4 @@ local-security-lab/
 
 ## License
 
-MIT — see [`LICENSE`](LICENSE). Replace `<Your Name>` in the license file with your name before publishing.
+MIT — see [`LICENSE`](LICENSE).
